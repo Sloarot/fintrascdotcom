@@ -1,0 +1,13 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect fintrasc.html to index.php
+RewriteCond %{REQUEST_URI} ^/fintrascdotcom/fintrasc\.html$ [NC]
+RewriteRule ^fintrasc\.html$ /fintrascdotcom/index.php [R=301,L]
+
+# Redirect about.html to about.php
+RewriteCond %{REQUEST_URI} ^/fintrascdotcom/about\.html$ [NC]
+RewriteRule ^about\.html$ /fintrascdotcom/about.php [R=301,L]
+
+# Make index.php the default directory index
+DirectoryIndex index.php index.html

@@ -35,7 +35,7 @@
                 <!-- Desktop Navigation Links -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-700 hover:text-blue-900 transition duration-300">Services</a>
-                    <a href="#about" class="text-gray-700 hover:text-blue-900 transition duration-300">About</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-900 transition duration-300">About</a>
                     <a href="#contact" class="text-gray-700 hover:text-blue-900 transition duration-300">Contact</a>
                 </div>
 
@@ -58,7 +58,7 @@
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
                 <a href="#services"
                     class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300">Services</a>
-                <a href="#about"
+                <a href="about.html"
                     class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300">About</a>
                 <a href="#contact"
                     class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300">Contact</a>
@@ -81,7 +81,7 @@
         <div class="hidden md:flex hero-video-container">
             <div class="hero-video-content">
                 <h1 class="hero-video-title">
-                    Financial Translation Services
+                    <span id="typewriter-desktop"></span><span class="typewriter-cursor">|</span>
                 </h1>
                 <p class="hero-video-subtitle">
                     Accurate, consistent and compliance-aware translations for investment funds, asset managers and
@@ -104,7 +104,7 @@
             <div class="flex flex-col gap-12 items-center w-full">
                 <div class="hero-content text-left rounded-2xl p-10 w-full max-w-[46rem] min-h-[380px]">
                     <h1 class="hero-title text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                        Financial Translation Services
+                        <span id="typewriter-mobile"></span><span class="typewriter-cursor">|</span>
                     </h1>
                     <p class="hero-subtitle text-lg md:text-xl mb-8 leading-relaxed opacity-90">
                         Accurate, consistent and compliance-aware translations for investment funds, asset managers and
@@ -132,58 +132,135 @@
     </section>
 
     <!-- Expertise Section -->
-    <section id="expertise" class="expertise-section">
-        <div class="expertise-container">
-            <h2 class="expertise-title">Why use our specialist financial translation?</h2>
-            <div class="expertise-grid">
-                <div class="expertise-card">
-                    <div class="icon"><i class="fa-solid fa-file-lines text-3xl text-white"></i></div>
-                    <h3>Specialised fund documentation</h3>
-                    <p>Focused exclusively on <strong>investment funds</strong>, including prospectuses, supplements and
-                        investor disclosures.</p>
+    <section id="expertise" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span
+                    class="inline-block font-family text-sm font-bold tracking-wider uppercase mb-4 px-4 py-2 rounded-full"
+                    style="background-color: rgba(31, 75, 118, 0.1); color: #1f4b76;">
+                    OUR EXPERTISE
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How we help you</h2>
+                <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+                    We focus exclusively on financial services translation, bringing deep financial knowledge and
+                    technical precision to every project.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="relative bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-blue-200">
+                    <div class="absolute top-0 right-0 w-32 h-32 transform translate-x-8 -translate-y-8">
+                        <div class="absolute inset-0 rounded-full opacity-10" style="background-color: #1f4b76;"></div>
+                    </div>
+                    <div class="p-8 relative z-10">
+                        <div class="flex items-center justify-center w-16 h-16 rounded-xl mb-6 shadow-lg"
+                            style="background: linear-gradient(135deg, #1f4b76 0%, #2d7fb8 100%);">
+                            <i class="fa-solid fa-file-invoice text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Specialised fund documentation</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Exclusively focused on <strong>investment funds</strong> - prospectuses, KIIDs, supplements,
+                            annual reports, and investor communications. We understand the nuances that generic
+                            translation services miss.
+                        </p>
+                    </div>
                 </div>
-                <div class="expertise-card">
-                    <div class="icon"><i class="fa-solid fa-scale-balanced text-3xl text-white"></i></div>
-                    <h3>Regulatory experience</h3>
-                    <p>Practical experience with <strong>UCITS, AIFMD, PRIIPs and SFDR</strong>-related documentation
-                        across European
-                        jurisdictions.</p>
+
+                <!-- Card 2 -->
+                <div
+                    class="relative bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-indigo-200">
+                    <div class="absolute top-0 right-0 w-32 h-32 transform translate-x-8 -translate-y-8">
+                        <div class="absolute inset-0 rounded-full bg-indigo-600 opacity-10"></div>
+                    </div>
+                    <div class="p-8 relative z-10">
+                        <div class="flex items-center justify-center w-16 h-16 rounded-xl mb-6 shadow-lg"
+                            style="background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);">
+                            <i class="fa-solid fa-gavel text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Deep regulatory knowledge</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Hands-on experience with <strong>UCITS, AIFMD, PRIIPs, and SFDR</strong> documentation
+                            across
+                            multiple European jurisdictions. We know what regulators expect and how to deliver it.
+                        </p>
+                    </div>
                 </div>
-                <div class="expertise-card">
-                    <div class="icon"><i class="fa-solid fa-circle-check text-3xl text-white"></i></div>
-                    <h3>Help with Compliance</h3>
-                    <p>Native-level financial translation, with a deadline-driven, regulator-aware approach and
-                        consistent terminology.</p>
+
+                <!-- Card 3 -->
+                <div
+                    class="relative bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-purple-200">
+                    <div class="absolute top-0 right-0 w-32 h-32 transform translate-x-8 -translate-y-8">
+                        <div class="absolute inset-0 rounded-full bg-purple-600 opacity-10"></div>
+                    </div>
+                    <div class="p-8 relative z-10">
+                        <div class="flex items-center justify-center w-16 h-16 rounded-xl mb-6 shadow-lg"
+                            style="background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);">
+                            <i class="fa-solid fa-shield-halved text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Compliance-first approach</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Native-level translation with rigorous terminology management, deadline adherence, and
+                            regulatory awareness built into every step of our process. Quality that passes regulatory
+                            scrutiny.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Why Specialist Translation Matters Section -->
-    <section class="translation-matters-section">
-        <div class="translation-container">
-            <!-- Image Half -->
-            <div class="translation-image-half">
-                <div class="translation-image-overlay"></div>
-                <img src="images/inspiration/2.jpg" alt="Financial documents" class="translation-bg-image">
-            </div>
-            <!-- Text Half -->
-            <div class="translation-text-half">
-                <div class="translation-content">
-                    <h2 class="translation-title">Why it matters</h2>
-                    <div class="translation-text">
-                        <p>Translating regulated financial documents is not simply a linguistic exercise.
-                            Inconsistent terminology, imprecise wording or a lack of regulatory awareness can create
-                            unnecessary compliance risk.</p>
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column: Image -->
+                <div class="order-2 lg:order-1">
+                    <img src="images/inspiration/2.jpg" alt="Financial documents"
+                        class="rounded-xl shadow-2xl w-full h-auto">
+                </div>
 
-                        <p>YES, AI and machine translation apps can do a lot. But for highly technical documents like
-                            annual
-                            reports or financial statements, or regulatory documents, it's best not to rely solely on
-                            computers. . Human translators will always play a crucial part. And that's where we come in
-                            ...
-                        </p>
+                <!-- Right Column: Content -->
+                <div class="order-1 lg:order-2">
+                    <div class="inline-block mb-4 px-4 py-2 rounded-full"
+                        style="background-color: rgba(31, 75, 118, 0.1);">
+                        <span class="text-sm font-bold tracking-wider uppercase" style="color: #1f4b76;">
+                            WHY IT MATTERS
+                        </span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Why you can't just ask AI...</h2>
 
-                        <p>That is where specialist financial translation makes a difference.</p>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4" style="border-color: #1f4b76;">
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Translating regulated financial documents is not simply a linguistic exercise.
+                                <strong>Inconsistent terminology, imprecise wording or a lack of regulatory
+                                    awareness</strong> can create
+                                unnecessary compliance risk.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Yes, AI and machine translation apps can do a lot, we also use them! But for highly
+                                technical
+                                documents like annual reports, financial statements, or regulatory documents, it's best
+                                not to rely solely
+                                on computers.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed">
+                                Just think of the many ways the word <em>"rate"</em> can be translated without context!
+                                Human translators will always play a crucial part. And that's where we come in...
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-lg text-white shadow-lg"
+                            style="background: linear-gradient(135deg, #1f4b76 0%, #2d7fb8 100%);">
+                            <p class="text-xl font-semibold">
+                                That is where specialist financial translation makes a difference.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,17 +274,41 @@
         </div>
     </section>
 
-    <section id="about" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-800">About Us</h2>
-        </div>
-    </section>
-
     <section id="contact" class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-gray-800">Contact</h2>
         </div>
     </section>
+
+    <!-- Get in Touch CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0"
+                style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
+            </div>
+        </div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-xl text-blue-100 mb-4">
+                If you would like to discuss a project or request a quote, feel free to contact me.
+            </p>
+            <p class="text-lg text-blue-200 mb-10">
+                All enquiries and documents are treated confidentially.
+            </p>
+            <a href="#contact"
+                class="inline-flex items-center px-8 py-4 bg-white text-blue-900 font-bold text-lg rounded-lg hover:bg-blue-50 transition duration-300 shadow-xl hover:shadow-2xl">
+                <span>Contact me to discuss your translation needs</span>
+                <i class="fas fa-arrow-right ml-3"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 FINTRASC. All rights reserved.</p>
+        </div>
+    </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
