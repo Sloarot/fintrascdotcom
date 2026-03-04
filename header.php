@@ -22,8 +22,39 @@
 </head>
 
 <body class="font-sans">
+    <!-- Language Bar -->
+    <div class="fixed top-0 w-full z-50 bg-gray-100 border-b border-gray-200" style="overflow: visible;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="overflow: visible;">
+            <div class="flex justify-end items-center h-9" style="overflow: visible;">
+                <div class="relative" id="lang-selector">
+                    <button id="lang-btn" class="flex items-center gap-1.5 text-sm text-gray-600 hover:text-gray-900 py-1 px-2 rounded hover:bg-gray-200 transition duration-150">
+                        <img id="current-flag" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="EN flag">
+                        <span id="current-lang" class="font-medium tracking-wide">EN</span>
+                        <svg class="w-3 h-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div id="lang-dropdown" class="hidden absolute right-0 mt-1 bg-white border border-gray-200 rounded shadow-lg py-1 min-w-[80px]" style="z-index: 9999; top: 100%;">
+                        <button onclick="setLang('EN','gb')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                            <img src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="EN"> EN
+                        </button>
+                        <button onclick="setLang('FR','fr')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                            <img src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="FR"> FR
+                        </button>
+                        <button onclick="setLang('ES','es')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                            <img src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="ES"> ES
+                        </button>
+                        <button onclick="setLang('NL','nl')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                            <img src="https://flagcdn.com/16x12/nl.png" width="16" height="12" alt="NL"> NL
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+    <nav class="bg-white shadow-md fixed w-full top-9 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
@@ -67,5 +98,5 @@
         </div>
     </nav>
 
-    <!-- Spacer for fixed navbar -->
-    <div class="h-16"></div>
+    <!-- Spacer for fixed lang bar + navbar (36px + 64px) -->
+    <div class="h-[100px]"></div>

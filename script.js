@@ -78,4 +78,46 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Start the typewriter effect after 3 seconds
   setTimeout(type, 3000);
+
+  // Language selector dropdown
+  const langBtn = document.getElementById("lang-btn");
+  const langDropdown = document.getElementById("lang-dropdown");
+
+  if (langBtn && langDropdown) {
+    langBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      langDropdown.classList.toggle("hidden");
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function () {
+      langDropdown.classList.add("hidden");
+    });
+
+    langDropdown.addEventListener("click", function (e) {
+      e.stopPropagation();
+    });
+
+    // Restore saved language on page load
+    const savedLang = localStorage.getItem("fintrasc_lang");
+    const savedFlag = localStorage.getItem("fintrasc_flag");
+    if (savedLang && savedFlag) {
+      document.getElementById("current-lang").textContent = savedLang;
+      document.getElementById("current-flag").src =
+        "https://flagcdn.com/16x12/" + savedFlag + ".png";
+      document.getElementById("current-flag").alt = savedLang;
+    }
+  }
 });
+
+function setLang(lang, flagCode) {
+  document.getElementById("current-lang").textContent = lang;
+  document.getElementById("current-flag").src =
+    "https://flagcdn.com/16x12/" + flagCode + ".png";
+  document.getElementById("current-flag").alt = lang;
+  document.getElementById("lang-dropdown").classList.add("hidden");
+
+  // Persist selection
+  localStorage.setItem("fintrasc_lang", lang);
+  localStorage.setItem("fintrasc_flag", flagCode);
+}
