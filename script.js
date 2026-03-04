@@ -99,25 +99,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Restore saved language on page load
-    const savedLang = localStorage.getItem("fintrasc_lang");
-    const savedFlag = localStorage.getItem("fintrasc_flag");
-    if (savedLang && savedFlag) {
-      document.getElementById("current-lang").textContent = savedLang;
-      document.getElementById("current-flag").src =
-        "https://flagcdn.com/16x12/" + savedFlag + ".png";
-      document.getElementById("current-flag").alt = savedLang;
-    }
+    // (Initial flag/label is now rendered server-side by PHP from the cookie - no JS restore needed)
   }
 });
 
 function setLang(lang, flagCode) {
-  document.getElementById("current-lang").textContent = lang;
-  document.getElementById("current-flag").src =
-    "https://flagcdn.com/16x12/" + flagCode + ".png";
-  document.getElementById("current-flag").alt = lang;
-  document.getElementById("lang-dropdown").classList.add("hidden");
-
-  // Persist selection
-  localStorage.setItem("fintrasc_lang", lang);
-  localStorage.setItem("fintrasc_flag", flagCode);
+  // Set cookie (1 year expiry) and reload so PHP picks up the new language
+  const expires = new Date();
+  expires.setFullYear(expires.getFullYear() + 1);
+  document.cookie =
+    "fintrasc_lang=" +
+    flagCode +
+    "; expires=" +
+    expires.toUTCString() +
+    "; path=/; SameSite=Lax";
+  location.reload();
 }

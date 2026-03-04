@@ -1,5 +1,25 @@
+<?php
+// ── Language detection ──────────────────────────────────────────────────────
+// Reads the 'fintrasc_lang' cookie set by the JS dropdown.
+// $lang is available to every page that includes header.php.
+// Tomorrow you can do: $translations = json_decode(file_get_contents("lang/$lang.json"), true);
+$_allowed_langs = ['en', 'fr', 'es', 'nl'];
+$lang = (isset($_COOKIE['fintrasc_lang']) && in_array($_COOKIE['fintrasc_lang'], $_allowed_langs))
+    ? $_COOKIE['fintrasc_lang']
+    : 'en';
+
+$_lang_meta = [
+    'en' => ['flag' => 'gb', 'label' => 'EN'],
+    'fr' => ['flag' => 'fr', 'label' => 'FR'],
+    'es' => ['flag' => 'es', 'label' => 'ES'],
+    'nl' => ['flag' => 'nl', 'label' => 'NL'],
+];
+$_current_flag  = $_lang_meta[$lang]['flag'];
+$_current_label = $_lang_meta[$lang]['label'];
+// ────────────────────────────────────────────────────────────────────────────
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang; ?>">
 
 <head>
     <meta charset="UTF-8">
@@ -28,8 +48,8 @@
             <div class="flex justify-end items-center h-9" style="overflow: visible;">
                 <div class="relative" id="lang-selector">
                     <button id="lang-btn" class="flex items-center gap-1.5 text-sm text-gray-600 hover:text-gray-900 py-1 px-2 rounded hover:bg-gray-200 transition duration-150">
-                        <img id="current-flag" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="EN flag">
-                        <span id="current-lang" class="font-medium tracking-wide">EN</span>
+                        <img id="current-flag" src="https://flagcdn.com/16x12/<?php echo $_current_flag; ?>.png" width="16" height="12" alt="<?php echo $_current_label; ?> flag">
+                        <span id="current-lang" class="font-medium tracking-wide"><?php echo $_current_label; ?></span>
                         <svg class="w-3 h-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
