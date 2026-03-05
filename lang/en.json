@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "home_title":    "FINTRASC - Professional Translation Services",
+    "about_title":   "About - FINTRASC",
+    "contact_title": "Contact - FINTRASC"
+  },
+  "nav": {
+    "home":    "Home",
+    "services": "Services",
+    "about":   "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "cta_heading": "Get in Touch",
+    "cta_body1":   "If you would like to discuss a project or request a quote, feel free to contact me.",
+    "cta_body2":   "All enquiries and documents are treated confidentially.",
+    "cta_button":  "Contact me to discuss your translation needs",
+    "copyright":   "\u00a9 2026 FINTRASC. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "subtitle":    "Accurate, consistent and compliance-aware translations for investment funds, asset managers and financial institutions.",
+      "cta_quote":   "Request a Quote",
+      "cta_services": "What we do"
+    },
+    "expertise": {
+      "badge":   "OUR EXPERTISE",
+      "heading": "How we help you",
+      "intro":   "We focus exclusively on financial services translation, bringing deep financial knowledge and technical precision to every project.",
+      "card1_title": "Specialised fund documentation",
+      "card1_pre":   "Exclusively focused on ",
+      "card1_bold":  "investment funds",
+      "card1_post":  " - prospectuses, KIIDs, supplements, annual reports, and investor communications. We understand the nuances that generic translation services miss.",
+      "card2_title": "Deep regulatory knowledge",
+      "card2_pre":   "Hands-on experience with ",
+      "card2_bold":  "UCITS, AIFMD, PRIIPs, and SFDR",
+      "card2_post":  " documentation across multiple European jurisdictions. We know what regulators expect and how to deliver it.",
+      "card3_title": "Compliance-first approach",
+      "card3_body":  "Native-level translation with rigorous terminology management, deadline adherence, and regulatory awareness built into every step of our process. Quality that passes regulatory scrutiny."
+    },
+    "why": {
+      "badge":        "WHY IT MATTERS",
+      "heading":      "You can't just ask AI...",
+      "block1_pre":   "Translating regulated financial documents is not simply a linguistic exercise. ",
+      "block1_bold":  "Inconsistent terminology, imprecise wording or a lack of regulatory awareness",
+      "block1_post":  " can create unnecessary compliance risk.",
+      "block2_p1":    "Yes, AI and machine translation can do many things, we also use them! But for highly technical documents like annual reports, financial statements, or regulatory documents, it's best not to rely solely on computers.",
+      "block2_p2_pre":  "Just think of the many ways the word ",
+      "block2_p2_em":   "\u201crate\u201d",
+      "block2_p2_post": " can be translated without context! Human translators will always play a crucial role. And that\u2019s where we come in...",
+      "highlight":    "Specialist financial translation, with the right mix of digital and human resources, makes all the difference."
+    }
+  },
+  "about": {
+    "hero": {
+      "heading":  "About FINTRASC",
+      "subtitle": "Specialist translation services for investment funds and financial institutions"
+    },
+    "what_we_do": {
+      "heading":     "What We Do",
+      "intro":       "We help investment funds and financial market participants translate key regulatory and investor-facing documents, including:",
+      "doc1_title":  "Fund Documents",
+      "doc1_body":   "Fund prospectuses and supplements",
+      "doc2_title":  "Investor Information",
+      "doc2_body":   "Key Investor Information Documents (KIIDs) and Key Information Documents (KIDs)",
+      "doc3_title":  "Financial Reports",
+      "doc3_body":   "Annual and semi-annual reports",
+      "doc4_title":  "SFDR Disclosures",
+      "doc4_body":   "SFDR and sustainability disclosures",
+      "doc5_title":  "ESG Documentation",
+      "doc5_body":   "ESG policies and related documentation",
+      "focus_label": "Our focus:",
+      "focus_body":  "Producing translations that are clear, precise and suitable for your investors and for regulatory review."
+    },
+    "compliance": {
+      "heading": "A Compliance-Focused Approach",
+      "intro":   "We work with a strong understanding of the European regulatory environment for investment funds, including:",
+      "check1":  "UCITS and AIFMD frameworks",
+      "check2":  "PRIIPs requirements",
+      "check3":  "SFDR and EU sustainability disclosures",
+      "body":    "While we do not provide legal advice, our translations reflect the regulatory context in which these documents are used. Terminology is handled carefully, numerical information is checked thoroughly, and wording is aligned with common market practice and EU Directives or Regulations.",
+      "highlight": "The result is translations designed to stand up to scrutiny."
+    },
+    "esg": {
+      "heading":    "ESG & Sustainability Disclosures",
+      "body1":      "Sustainability and ESG disclosures require particular care. Ambiguous or promotional language can expose funds to regulatory and reputational risk.",
+      "highlight":  "We translate sustainability disclosures with a conservative, accuracy-first approach",
+      "body2":      "Ensuring that ESG terminology is used consistently and in line with regulatory expectations, while faithfully reflecting the source text.",
+      "conclusion": "This supports credible and compliant sustainability reporting across languages."
+    },
+    "how_we_work": {
+      "heading":     "How We Work",
+      "intro":       "Our process is designed to support accuracy, consistency and confidentiality",
+      "step1_title": "Document Review",
+      "step1_body":  "Understanding the regulatory context, target audience and jurisdiction",
+      "step2_title": "Terminology Alignment",
+      "step2_body":  "Ensuring consistency with existing fund documentation and prior disclosures",
+      "step3_title": "Specialist Translation",
+      "step3_body":  "Focused on financial and regulatory accuracy",
+      "step4_title": "Quality Control",
+      "step4_body":  "Terminology, figures and internal consistency checks",
+      "step5_title": "Secure Delivery",
+      "step5_body":  "Confidential handling and reliable turnaround times"
+    },
+    "who_we_work_with": {
+      "heading":  "Who We Work With",
+      "intro":    "We work with:",
+      "client1":  "Asset managers",
+      "client2":  "Investment funds",
+      "client3":  "Fund administrators",
+      "client4":  "Legal & compliance teams",
+      "client5":  "Financial service providers",
+      "cta":      "Whether you are launching a new fund, updating regulatory documentation or preparing sustainability disclosures, we provide translation services you can rely on."
+    }
+  },
+  "contact": {
+    "hero": {
+      "heading":  "Get in Touch",
+      "subtitle": "Tell us about your project \u2014 all enquiries and documents are treated confidentially."
+    },
+    "info": {
+      "badge":       "CONTACT US",
+      "heading":     "Let\u2019s discuss your translation needs",
+      "intro":       "Whether you have a single document or an ongoing project, we\u2019re here to help. Reach out and we\u2019ll get back to you promptly.",
+      "card1_title": "Fast response",
+      "card1_body":  "We aim to respond to all enquiries within one business day.",
+      "card2_title": "Strict confidentiality",
+      "card2_body":  "All documents and correspondence are handled with full discretion.",
+      "card3_title": "Direct email",
+      "card3_body":  "Prefer email?"
+    },
+    "form": {
+      "name_label":    "Full Name",
+      "email_label":   "Email Address",
+      "message_label": "Your Message",
+      "submit":        "Send Message",
+      "privacy":       "By submitting this form you agree that your information will be used solely to respond to your enquiry. We will never share your details with third parties."
+    },
+    "messages": {
+      "success_title": "Message sent!",
+      "success_body":  "Thank you, we\u2019ll be in touch within one business day.",
+      "error_heading": "Please fix the following:",
+      "error_generic": "Something went wrong. Please try again or email us directly.",
+      "err_name":      "Your name is required.",
+      "err_email":     "A valid email address is required.",
+      "err_message":   "Please enter a message."
+    }
+  }
+}

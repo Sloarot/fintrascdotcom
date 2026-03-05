@@ -2,6 +2,14 @@
 $page_title = "Contact - FINTRASC";
 $current_page = "contact";
 
+// Early language detection so __() is available for form validation messages.
+// header.php will call require_once on the same file — safely skipped the second time.
+$_allowed_langs = ['en', 'fr', 'es', 'nl'];
+$lang = (isset($_COOKIE['fintrasc_lang']) && in_array($_COOKIE['fintrasc_lang'], $_allowed_langs))
+    ? $_COOKIE['fintrasc_lang']
+    : 'en';
+require_once __DIR__ . '/includes/translate.php';
+
 // ── Form handling ────────────────────────────────────────────────────────────
 $form_success = false;
 $form_error   = false;
@@ -12,10 +20,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email   = trim($_POST['email']   ?? '');
     $message = trim($_POST['message'] ?? '');
 
-    if (empty($name))    $errors[] = 'Your name is required.';
+    if (empty($name))    $errors[] = __('contact.messages.err_name');
     if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL))
-        $errors[] = 'A valid email address is required.';
-    if (empty($message)) $errors[] = 'Please enter a message.';
+        $errors[] = __('contact.messages.err_email');
+    if (empty($message)) $errors[] = __('contact.messages.err_message');
 
     if (empty($errors)) {
         // ── Configure this address to receive enquiries ───────────────────
@@ -53,10 +61,10 @@ include 'header.php';
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-3xl">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Get in Touch
+                <?= htmlspecialchars(__('contact.hero.heading')) ?>
             </h1>
             <p class="text-xl md:text-2xl text-blue-100 font-light">
-                Tell us about your project — all enquiries and documents are treated confidentially.
+                <?= htmlspecialchars(__('contact.hero.subtitle')) ?>
             </p>
         </div>
     </div>
@@ -71,14 +79,13 @@ include 'header.php';
             <div>
                 <span class="inline-block font-family text-sm font-bold tracking-wider uppercase mb-4 px-4 py-2 rounded-full"
                     style="background-color: rgba(31, 75, 118, 0.1); color: #1f4b76;">
-                    CONTACT US
+                    <?= htmlspecialchars(__('contact.info.badge')) ?>
                 </span>
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Let's discuss your translation needs
+                    <?= htmlspecialchars(__('contact.info.heading')) ?>
                 </h2>
                 <p class="text-lg text-gray-600 mb-10 leading-relaxed">
-                    Whether you have a single document or an ongoing project, we're here to help. Reach out and we'll
-                    get back to you promptly.
+                    <?= htmlspecialchars(__('contact.info.intro')) ?>
                 </p>
 
                 <div class="space-y-6">
@@ -89,8 +96,8 @@ include 'header.php';
                             <i class="fa-solid fa-clock text-white text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="text-base font-bold text-gray-900 mb-1">Fast response</h3>
-                            <p class="text-gray-600 text-sm">We aim to respond to all enquiries within one business day.</p>
+                            <h3 class="text-base font-bold text-gray-900 mb-1"><?= htmlspecialchars(__('contact.info.card1_title')) ?></h3>
+                            <p class="text-gray-600 text-sm"><?= htmlspecialchars(__('contact.info.card1_body')) ?></p>
                         </div>
                     </div>
 
@@ -101,8 +108,8 @@ include 'header.php';
                             <i class="fa-solid fa-lock text-white text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="text-base font-bold text-gray-900 mb-1">Strict confidentiality</h3>
-                            <p class="text-gray-600 text-sm">All documents and correspondence are handled with full discretion.</p>
+                            <h3 class="text-base font-bold text-gray-900 mb-1"><?= htmlspecialchars(__('contact.info.card2_title')) ?></h3>
+                            <p class="text-gray-600 text-sm"><?= htmlspecialchars(__('contact.info.card2_body')) ?></p>
                         </div>
                     </div>
 
@@ -113,9 +120,9 @@ include 'header.php';
                             <i class="fa-solid fa-envelope text-white text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="text-base font-bold text-gray-900 mb-1">Direct email</h3>
+                            <h3 class="text-base font-bold text-gray-900 mb-1"><?= htmlspecialchars(__('contact.info.card3_title')) ?></h3>
                             <p class="text-gray-600 text-sm">
-                                Prefer email?
+                                <?= htmlspecialchars(__('contact.info.card3_body')) ?>
                                 <a href="mailto:hello@fintrasc.com" class="font-semibold hover:underline"
                                     style="color: #1f4b76;">hello@fintrasc.com</a>
                             </p>
@@ -132,8 +139,8 @@ include 'header.php';
                     <div class="alert-success mb-6 flex items-center gap-3">
                         <i class="fa-solid fa-circle-check text-green-600 text-xl"></i>
                         <div>
-                            <p class="font-bold">Message sent!</p>
-                            <p class="text-sm mt-0.5">Thank you, we'll be in touch within one business day.</p>
+                            <p class="font-bold"><?= htmlspecialchars(__('contact.messages.success_title')) ?></p>
+                            <p class="text-sm mt-0.5"><?= htmlspecialchars(__('contact.messages.success_body')) ?></p>
                         </div>
                     </div>
                 <?php endif; ?>
@@ -142,7 +149,7 @@ include 'header.php';
                 <?php if ($form_error && !empty($errors)): ?>
                     <div class="alert-error mb-6">
                         <p class="font-bold mb-1 flex items-center gap-2">
-                            <i class="fa-solid fa-circle-exclamation"></i> Please fix the following:
+                            <i class="fa-solid fa-circle-exclamation"></i> <?= htmlspecialchars(__('contact.messages.error_heading')) ?>
                         </p>
                         <ul class="list-disc list-inside text-sm space-y-0.5">
                             <?php foreach ($errors as $e): ?>
@@ -153,7 +160,7 @@ include 'header.php';
                 <?php elseif ($form_error): ?>
                     <div class="alert-error mb-6">
                         <p class="font-bold flex items-center gap-2">
-                            <i class="fa-solid fa-circle-exclamation"></i> Something went wrong. Please try again or email us directly.
+                            <i class="fa-solid fa-circle-exclamation"></i> <?= htmlspecialchars(__('contact.messages.error_generic')) ?>
                         </p>
                     </div>
                 <?php endif; ?>
@@ -171,7 +178,7 @@ include 'header.php';
                             autocomplete="name"
                             value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>"
                             required>
-                        <label for="name" class="floating-label">Full Name</label>
+                        <label for="name" class="floating-label"><?= htmlspecialchars(__('contact.form.name_label')) ?></label>
                     </div>
 
                     <!-- Email -->
@@ -185,7 +192,7 @@ include 'header.php';
                             autocomplete="email"
                             value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>"
                             required>
-                        <label for="email" class="floating-label">Email Address</label>
+                        <label for="email" class="floating-label"><?= htmlspecialchars(__('contact.form.email_label')) ?></label>
                     </div>
 
                     <!-- Message -->
@@ -197,20 +204,19 @@ include 'header.php';
                             placeholder=" "
                             rows="5"
                             required><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
-                        <label for="message" class="floating-label">Your Message</label>
+                        <label for="message" class="floating-label"><?= htmlspecialchars(__('contact.form.message_label')) ?></label>
                     </div>
 
                     <!-- Submit -->
                     <div class="pt-2">
                         <button type="submit" class="btn-contact-submit w-full flex items-center justify-center gap-3">
                             <i class="fa-solid fa-paper-plane"></i>
-                            <span>Send Message</span>
+                            <span><?= htmlspecialchars(__('contact.form.submit')) ?></span>
                         </button>
                     </div>
 
                     <p class="text-xs text-gray-400 text-center leading-relaxed">
-                        By submitting this form you agree that your information will be used solely to respond to your enquiry.
-                        We will never share your details with third parties.
+                        <?= htmlspecialchars(__('contact.form.privacy')) ?>
                     </p>
                 </form>
             </div>

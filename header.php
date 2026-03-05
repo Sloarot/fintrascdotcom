@@ -17,6 +17,8 @@ $_lang_meta = [
 $_current_flag  = $_lang_meta[$lang]['flag'];
 $_current_label = $_lang_meta[$lang]['label'];
 // ────────────────────────────────────────────────────────────────────────────
+require_once __DIR__ . '/includes/translate.php';
+$page_title = __('meta.' . ($current_page ?? 'home') . '_title');
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
@@ -55,16 +57,16 @@ $_current_label = $_lang_meta[$lang]['label'];
                         </svg>
                     </button>
                     <div id="lang-dropdown" class="hidden absolute right-0 mt-1 bg-white border border-gray-200 rounded shadow-lg py-1 min-w-[80px]" style="z-index: 9999; top: 100%;">
-                        <button onclick="setLang('EN','gb')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                        <button onclick="setLang('en','gb')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
                             <img src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="EN"> EN
                         </button>
-                        <button onclick="setLang('FR','fr')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                        <button onclick="setLang('fr','fr')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
                             <img src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="FR"> FR
                         </button>
-                        <button onclick="setLang('ES','es')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                        <button onclick="setLang('es','es')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
                             <img src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="ES"> ES
                         </button>
-                        <button onclick="setLang('NL','nl')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
+                        <button onclick="setLang('nl','nl')" class="lang-option flex items-center gap-2 w-full px-3 py-1.5 text-sm text-gray-700 hover:bg-gray-50 transition duration-100">
                             <img src="https://flagcdn.com/16x12/nl.png" width="16" height="12" alt="NL"> NL
                         </button>
                     </div>
@@ -86,9 +88,9 @@ $_current_label = $_lang_meta[$lang]['label'];
 
                 <!-- Desktop Navigation Links -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="index.php#services" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'home') ? 'font-semibold' : ''; ?>">Home</a>
-                    <a href="about.php" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'about') ? 'text-blue-900 font-semibold' : ''; ?>">Services</a>
-                    <a href="contact.php" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'contact') ? 'text-blue-900 font-semibold' : ''; ?>">Contact</a>
+                    <a href="index.php#services" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'home') ? 'font-semibold' : ''; ?>"><?= htmlspecialchars(__('nav.home')) ?></a>
+                    <a href="about.php" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'about') ? 'text-blue-900 font-semibold' : ''; ?>"><?= htmlspecialchars(__('nav.services')) ?></a>
+                    <a href="contact.php" class="text-gray-700 hover:text-blue-900 transition duration-300 <?php echo (isset($current_page) && $current_page == 'contact') ? 'text-blue-900 font-semibold' : ''; ?>"><?= htmlspecialchars(__('nav.contact')) ?></a>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -109,11 +111,11 @@ $_current_label = $_lang_meta[$lang]['label'];
         <div id="mobile-menu" class="hidden md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
                 <a href="index.php#services"
-                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300">Services</a>
+                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300"><?= htmlspecialchars(__('nav.services')) ?></a>
                 <a href="about.php"
-                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300 <?php echo (isset($current_page) && $current_page == 'about') ? 'text-blue-900 font-semibold bg-blue-50' : ''; ?>">About</a>
+                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300 <?php echo (isset($current_page) && $current_page == 'about') ? 'text-blue-900 font-semibold bg-blue-50' : ''; ?>"><?= htmlspecialchars(__('nav.about')) ?></a>
                 <a href="contact.php"
-                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300 <?php echo (isset($current_page) && $current_page == 'contact') ? 'text-blue-900 font-semibold bg-blue-50' : ''; ?>">Contact</a>
+                    class="block px-3 py-2 text-gray-700 hover:text-blue-900 hover:bg-gray-50 rounded-md transition duration-300 <?php echo (isset($current_page) && $current_page == 'contact') ? 'text-blue-900 font-semibold bg-blue-50' : ''; ?>"><?= htmlspecialchars(__('nav.contact')) ?></a>
             </div>
         </div>
     </nav>

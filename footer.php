@@ -7,16 +7,16 @@
                 </div>
             </div>
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h2>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6"><?= htmlspecialchars(__('footer.cta_heading')) ?></h2>
                 <p class="text-xl text-blue-100 mb-4">
-                    If you would like to discuss a project or request a quote, feel free to contact me.
+                    <?= htmlspecialchars(__('footer.cta_body1')) ?>
                 </p>
                 <p class="text-lg text-blue-200 mb-10">
-                    All enquiries and documents are treated confidentially.
+                    <?= htmlspecialchars(__('footer.cta_body2')) ?>
                 </p>
                 <a href="contact.php"
                     class="inline-flex items-center px-8 py-4 bg-white font-bold text-lg rounded-lg hover:bg-blue-50 transition duration-300 shadow-xl hover:shadow-2xl" style="color: #22517E;">
-                    <span>Contact me to discuss your translation needs</span>
+                    <span><?= htmlspecialchars(__('footer.cta_button')) ?></span>
                     <i class="fas fa-arrow-right ml-3"></i>
                 </a>
             </div>
@@ -26,7 +26,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p>&copy; 2026 FINTRASC. All rights reserved.</p>
+            <p><?= htmlspecialchars(__('footer.copyright')) ?></p>
         </div>
     </footer>
 

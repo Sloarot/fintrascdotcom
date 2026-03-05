@@ -20,15 +20,14 @@ include 'header.php';
                 <span id="typewriter-desktop"></span><span class="typewriter-cursor">|</span>
             </h1>
             <p class="hero-video-subtitle">
-                Accurate, consistent and compliance-aware translations for investment funds, asset managers and
-                financial institutions.
+                <?= htmlspecialchars(__('home.hero.subtitle')) ?>
             </p>
             <div class="hero-video-buttons">
                 <a href="#contact" class="btn-primary px-8 py-4 rounded-lg text-center shadow-lg text-lg">
-                    Request a Quote
+                    <?= htmlspecialchars(__('home.hero.cta_quote')) ?>
                 </a>
                 <a href="#services" class="btn-secondary-video px-8 py-4 rounded-lg text-center text-lg">
-                    What we do
+                    <?= htmlspecialchars(__('home.hero.cta_services')) ?>
                 </a>
             </div>
         </div>
@@ -43,15 +42,14 @@ include 'header.php';
                     <span id="typewriter-mobile"></span><span class="typewriter-cursor">|</span>
                 </h1>
                 <p class="hero-subtitle text-lg md:text-xl mb-8 leading-relaxed opacity-90">
-                    Accurate, consistent and compliance-aware translations for investment funds, asset managers and
-                    financial institutions.
+                    <?= htmlspecialchars(__('home.hero.subtitle')) ?>
                 </p>
                 <div class="hero-buttons flex flex-col sm:flex-row gap-4">
                     <a href="#contact" class="btn-primary px-6 py-3 rounded-lg text-center shadow-lg text-base">
-                        Request a Quote
+                        <?= htmlspecialchars(__('home.hero.cta_quote')) ?>
                     </a>
                     <a href="#services" class="btn-secondary px-6 py-3 rounded-lg text-center text-base">
-                        What we do
+                        <?= htmlspecialchars(__('home.hero.cta_services')) ?>
                     </a>
                 </div>
             </div>
@@ -73,11 +71,11 @@ include 'header.php';
         <div class="text-center mb-16">
             <span class="inline-block font-family text-sm font-bold tracking-wider uppercase mb-4 px-4 py-2 rounded-full"
                 style="background-color: rgba(31, 75, 118, 0.1); color: #1f4b76;">
-                OUR EXPERTISE
+                <?= htmlspecialchars(__('home.expertise.badge')) ?>
             </span>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How we help you</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6"><?= htmlspecialchars(__('home.expertise.heading')) ?></h2>
             <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
-                We focus exclusively on financial services translation, bringing deep financial knowledge and technical precision to every project.
+                <?= htmlspecialchars(__('home.expertise.intro')) ?>
             </p>
         </div>
 
@@ -92,11 +90,9 @@ include 'header.php';
                         style="background: linear-gradient(135deg, #1f4b76 0%, #2d7fb8 100%);">
                         <i class="fa-solid fa-file-invoice text-2xl text-white"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Specialised fund documentation</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4"><?= htmlspecialchars(__('home.expertise.card1_title')) ?></h3>
                     <p class="text-gray-700 leading-relaxed">
-                        Exclusively focused on <strong>investment funds</strong> - prospectuses, KIIDs, supplements,
-                        annual reports, and investor communications. We understand the nuances that generic
-                        translation services miss.
+                        <?= htmlspecialchars(__('home.expertise.card1_pre')) ?><strong><?= htmlspecialchars(__('home.expertise.card1_bold')) ?></strong><?= htmlspecialchars(__('home.expertise.card1_post')) ?>
                     </p>
                 </div>
             </div>
@@ -111,10 +107,9 @@ include 'header.php';
                         style="background: linear-gradient(135deg, #22517E 0%, #2A659E 100%);">
                         <i class="fa-solid fa-gavel text-2xl text-white"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Deep regulatory knowledge</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4"><?= htmlspecialchars(__('home.expertise.card2_title')) ?></h3>
                     <p class="text-gray-700 leading-relaxed">
-                        Hands-on experience with <strong>UCITS, AIFMD, PRIIPs, and SFDR</strong> documentation across
-                        multiple European jurisdictions. We know what regulators expect and how to deliver it.
+                        <?= htmlspecialchars(__('home.expertise.card2_pre')) ?><strong><?= htmlspecialchars(__('home.expertise.card2_bold')) ?></strong><?= htmlspecialchars(__('home.expertise.card2_post')) ?>
                     </p>
                 </div>
             </div>
@@ -129,11 +124,9 @@ include 'header.php';
                         style="background: linear-gradient(135deg, #2A659E 0%, #3279BE 100%);">
                         <i class="fa-solid fa-shield-halved text-2xl text-white"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Compliance-first approach</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4"><?= htmlspecialchars(__('home.expertise.card3_title')) ?></h3>
                     <p class="text-gray-700 leading-relaxed">
-                        Native-level translation with rigorous terminology management, deadline adherence, and
-                        regulatory awareness built into every step of our process. Quality that passes regulatory
-                        scrutiny.
+                        <?= htmlspecialchars(__('home.expertise.card3_body')) ?>
                     </p>
                 </div>
             </div>
@@ -156,36 +149,31 @@ include 'header.php';
                 <div class="inline-block mb-4 px-4 py-2 rounded-full"
                     style="background-color: rgba(31, 75, 118, 0.1);">
                     <span class="text-sm font-bold tracking-wider uppercase" style="color: #1f4b76;">
-                        WHY IT MATTERS
+                        <?= htmlspecialchars(__('home.why.badge')) ?>
                     </span>
                 </div>
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">You can't just ask AI...</h2>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6"><?= htmlspecialchars(__('home.why.heading')) ?></h2>
 
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-md border-l-4" style="border-color: #1f4b76;">
                         <p class="text-lg text-gray-700 leading-relaxed">
-                            Translating regulated financial documents is not simply a linguistic exercise.
-                            <strong>Inconsistent terminology, imprecise wording or a lack of regulatory awareness</strong> can create
-                            unnecessary compliance risk.
+                            <?= htmlspecialchars(__('home.why.block1_pre')) ?><strong><?= htmlspecialchars(__('home.why.block1_bold')) ?></strong><?= htmlspecialchars(__('home.why.block1_post')) ?>
                         </p>
                     </div>
 
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         <p class="text-gray-700 leading-relaxed mb-4">
-                            Yes, AI and machine translation can do many things, we also use them! But for highly technical
-                            documents like annual reports, financial statements, or regulatory documents, it's best not to rely solely
-                            on computers.
+                            <?= htmlspecialchars(__('home.why.block2_p1')) ?>
                         </p>
                         <p class="text-gray-700 leading-relaxed">
-                            Just think of the many ways the word <em>"rate"</em> can be translated without context!
-                            Human translators will always play a crucial role. And that's where we come in...
+                            <?= htmlspecialchars(__('home.why.block2_p2_pre')) ?><em><?= htmlspecialchars(__('home.why.block2_p2_em')) ?></em><?= htmlspecialchars(__('home.why.block2_p2_post')) ?>
                         </p>
                     </div>
 
                     <div class="p-6 rounded-lg text-white shadow-lg"
-                        style="background: linear-gradient(135deg, #1f4b76 0%, #2d7fb8 100%);">
+                        style="background: linear-gradient(135deg, #1f4b76 0%, #2d7fb8 100%)">
                         <p class="text-xl font-semibold">
-                            Specialist financial translation, with the right mix of digital and human resources, makes all the difference.
+                            <?= htmlspecialchars(__('home.why.highlight')) ?>
                         </p>
                     </div>
                 </div>

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "home_title":    "FINTRASC - Financi\u00eble Vertaaldiensten",
+    "about_title":   "Over ons - FINTRASC",
+    "contact_title": "Contact - FINTRASC"
+  },
+  "nav": {
+    "home":    "Home",
+    "services": "Diensten",
+    "about":   "Over ons",
+    "contact": "Contact"
+  },
+  "footer": {
+    "cta_heading": "Neem contact op",
+    "cta_body1":   "Als u een project wilt bespreken of een offerte wilt aanvragen, neem dan gerust contact met mij op.",
+    "cta_body2":   "Alle vragen en documenten worden vertrouwelijk behandeld.",
+    "cta_button":  "Neem contact op om uw vertaalbehoeften te bespreken",
+    "copyright":   "\u00a9 2026 FINTRASC. Alle rechten voorbehouden."
+  },
+  "home": {
+    "hero": {
+      "subtitle":    "Nauwkeurige, consistente en compliance-bewuste vertalingen voor beleggingsfondsen, vermogensbeheerders en financi\u00eble instellingen.",
+      "cta_quote":   "Offerte aanvragen",
+      "cta_services": "Wat wij doen"
+    },
+    "expertise": {
+      "badge":   "ONZE EXPERTISE",
+      "heading": "Hoe wij u helpen",
+      "intro":   "Wij richten ons uitsluitend op de vertaling van financi\u00eble diensten en brengen diepgaande financi\u00eble kennis en technische precisie naar elk project.",
+      "card1_title": "Gespecialiseerde fondsdocumentatie",
+      "card1_pre":   "Uitsluitend gericht op ",
+      "card1_bold":  "beleggingsfondsen",
+      "card1_post":  " - prospectussen, KIID\u2019s, supplementen, jaarverslagen en communicatie met beleggers. Wij begrijpen de nuances die generieke vertaaldiensten missen.",
+      "card2_title": "Diepgaande regelgevingskennis",
+      "card2_pre":   "Praktische ervaring met ",
+      "card2_bold":  "UCITS, AIFMD, PRIIPs en SFDR",
+      "card2_post":  " documentatie in meerdere Europese rechtsgebieden. Wij weten wat toezichthouders verwachten en hoe dit te leveren.",
+      "card3_title": "Compliance-gerichte aanpak",
+      "card3_body":  "Vertaling op native niveau met rigoureus terminologiebeheer, naleving van deadlines en regelgevingsbewustzijn ingebouwd in elke stap van ons proces. Kwaliteit die regelgevingstoetsing doorstaat."
+    },
+    "why": {
+      "badge":        "WAAROM HET BELANGRIJK IS",
+      "heading":      "Je kunt het niet zomaar aan AI vragen\u2026",
+      "block1_pre":   "Het vertalen van gereguleerde financi\u00eble documenten is niet alleen een taalkundige oefening. ",
+      "block1_bold":  "Inconsistente terminologie, onnauwkeurige formuleringen of een gebrek aan regelgevingsbewustzijn",
+      "block1_post":  " kunnen onnodige nalevingsrisico\u2019s cre\u00ebren.",
+      "block2_p1":    "Ja, AI en machinevertaling kunnen veel dingen doen, wij gebruiken ze ook! Maar voor zeer technische documenten zoals jaarverslagen, financi\u00eble overzichten of regelgevingsdocumenten is het beter om niet uitsluitend op computers te vertrouwen.",
+      "block2_p2_pre":  "Denk maar eens aan de vele manieren waarop het woord ",
+      "block2_p2_em":   "\u201erente\u201f",
+      "block2_p2_post": " zonder context kan worden vertaald! Menselijke vertalers zullen altijd een cruciale rol spelen. En dat is waar wij in beeld komen\u2026",
+      "highlight":    "Gespecialiseerde financi\u00eble vertaling, met de juiste mix van digitale en menselijke middelen, maakt het verschil."
+    }
+  },
+  "about": {
+    "hero": {
+      "heading":  "Over FINTRASC",
+      "subtitle": "Gespecialiseerde vertaaldiensten voor beleggingsfondsen en financi\u00eble instellingen"
+    },
+    "what_we_do": {
+      "heading":     "Wat wij doen",
+      "intro":       "Wij helpen beleggingsfondsen en deelnemers aan financi\u00eble markten bij het vertalen van belangrijke regelgevings- en beleggersdocumenten, waaronder:",
+      "doc1_title":  "Fondsdocumenten",
+      "doc1_body":   "Fondsprospectussen en supplementen",
+      "doc2_title":  "Beleggersinformatie",
+      "doc2_body":   "Essenti\u00eble beleggersinformatie (KIID) en Essenti\u00eble-informatiedocumenten (EID)",
+      "doc3_title":  "Financi\u00eble verslagen",
+      "doc3_body":   "Jaar- en halfjaarverslagen",
+      "doc4_title":  "SFDR-informatie",
+      "doc4_body":   "SFDR- en duurzaamheidsrapportage",
+      "doc5_title":  "ESG-documentatie",
+      "doc5_body":   "ESG-beleid en aanverwante documentatie",
+      "focus_label": "Onze focus:",
+      "focus_body":  "Vertalingen produceren die helder, nauwkeurig en geschikt zijn voor uw beleggers en voor regelgevingstoetsing."
+    },
+    "compliance": {
+      "heading": "Een compliance-gerichte aanpak",
+      "intro":   "Wij werken met een grondig begrip van de Europese regelgevingsomgeving voor beleggingsfondsen, waaronder:",
+      "check1":  "UCITS- en AIFMD-kaders",
+      "check2":  "PRIIPs-vereisten",
+      "check3":  "SFDR en EU-duurzaamheidsrapportage",
+      "body":    "Hoewel wij geen juridisch advies verstrekken, weerspiegelen onze vertalingen de regelgevingscontext waarin deze documenten worden gebruikt. Terminologie wordt zorgvuldig behandeld, numerieke informatie wordt grondig gecontroleerd en de formulering is afgestemd op de gangbare marktpraktijk en EU-richtlijnen of -verordeningen.",
+      "highlight": "Het resultaat zijn vertalingen die zijn ontworpen om aan kritisch toezicht te weerstaan."
+    },
+    "esg": {
+      "heading":    "ESG- en duurzaamheidsrapportage",
+      "body1":      "Duurzaamheids- en ESG-rapportage vereist bijzondere zorgvuldigheid. Dubbelzinnige of promotionele taal kan fondsen blootstellen aan regelgevings- en reputatierisico\u2019s.",
+      "highlight":  "Wij vertalen duurzaamheidsrapportage met een conservatieve, nauwkeurigheidsgerichte aanpak",
+      "body2":      "Zodat ESG-terminologie consistent wordt gebruikt en in lijn met regelgevingsverwachtingen, terwijl de brontekst getrouw wordt weergegeven.",
+      "conclusion": "Dit ondersteunt geloofwaardige en conforme duurzaamheidsrapportage in alle talen."
+    },
+    "how_we_work": {
+      "heading":     "Hoe wij werken",
+      "intro":       "Ons proces is ontworpen voor nauwkeurigheid, consistentie en vertrouwelijkheid",
+      "step1_title": "Documentanalyse",
+      "step1_body":  "Begrip van de regelgevingscontext, doelgroep en rechtsgebied",
+      "step2_title": "Terminologieafstemming",
+      "step2_body":  "Zorgen voor consistentie met bestaande fondsdocumentatie en eerdere rapportages",
+      "step3_title": "Gespecialiseerde vertaling",
+      "step3_body":  "Gericht op financi\u00eble en regelgevingsnauwkeurigheid",
+      "step4_title": "Kwaliteitscontrole",
+      "step4_body":  "Controles op terminologie, cijfers en interne consistentie",
+      "step5_title": "Veilige levering",
+      "step5_body":  "Vertrouwelijke behandeling en betrouwbare doorlooptijden"
+    },
+    "who_we_work_with": {
+      "heading":  "Met wie wij werken",
+      "intro":    "Wij werken met:",
+      "client1":  "Vermogensbeheerders",
+      "client2":  "Beleggingsfondsen",
+      "client3":  "Fondsadministrateurs",
+      "client4":  "Juridische en compliance-teams",
+      "client5":  "Aanbieders van financi\u00eble diensten",
+      "cta":      "Of u nu een nieuw fonds lanceert, regelgevingsdocumentatie bijwerkt of duurzaamheidsrapportages voorbereidt, wij bieden vertaaldiensten waarop u kunt vertrouwen."
+    }
+  },
+  "contact": {
+    "hero": {
+      "heading":  "Neem contact op",
+      "subtitle": "Vertel ons over uw project \u2014 alle vragen en documenten worden vertrouwelijk behandeld."
+    },
+    "info": {
+      "badge":       "CONTACT",
+      "heading":     "Laten we uw vertaalbehoeften bespreken",
+      "intro":       "Of u nu \u00e9\u00e9n document of een doorlopend project heeft, wij staan voor u klaar. Neem contact op en we reageren snel.",
+      "card1_title": "Snelle reactie",
+      "card1_body":  "Wij streven ernaar om alle vragen binnen \u00e9\u00e9n werkdag te beantwoorden.",
+      "card2_title": "Strikte vertrouwelijkheid",
+      "card2_body":  "Alle documenten en correspondentie worden met volledige discretie behandeld.",
+      "card3_title": "Direct e-mailen",
+      "card3_body":  "Liever e-mailen?"
+    },
+    "form": {
+      "name_label":    "Volledige naam",
+      "email_label":   "E-mailadres",
+      "message_label": "Uw bericht",
+      "submit":        "Bericht versturen",
+      "privacy":       "Door dit formulier in te dienen, gaat u ermee akkoord dat uw gegevens uitsluitend worden gebruikt om op uw vraag te reageren. Wij zullen uw gegevens nooit delen met derden."
+    },
+    "messages": {
+      "success_title": "Bericht verzonden!",
+      "success_body":  "Bedankt, we nemen binnen \u00e9\u00e9n werkdag contact met u op.",
+      "error_heading": "Corrigeer het volgende:",
+      "error_generic": "Er is iets misgegaan. Probeer het opnieuw of e-mail ons rechtstreeks.",
+      "err_name":      "Uw naam is vereist.",
+      "err_email":     "Een geldig e-mailadres is vereist.",
+      "err_message":   "Voer een bericht in."
+    }
+  }
+}

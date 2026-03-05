@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "home_title":    "FINTRASC - Services de Traduction Financi\u00e8re",
+    "about_title":   "\u00c0 propos - FINTRASC",
+    "contact_title": "Contact - FINTRASC"
+  },
+  "nav": {
+    "home":    "Accueil",
+    "services": "Services",
+    "about":   "\u00c0 propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "cta_heading": "Prenez Contact",
+    "cta_body1":   "Si vous souhaitez discuter d\u2019un projet ou demander un devis, n\u2019h\u00e9sitez pas \u00e0 me contacter.",
+    "cta_body2":   "Toutes les demandes et tous les documents sont trait\u00e9s de mani\u00e8re confidentielle.",
+    "cta_button":  "Contactez-moi pour discuter de vos besoins en traduction",
+    "copyright":   "\u00a9 2026 FINTRASC. Tous droits r\u00e9serv\u00e9s."
+  },
+  "home": {
+    "hero": {
+      "subtitle":    "Des traductions pr\u00e9cises, coh\u00e9rentes et conformes aux exigences r\u00e9glementaires pour les fonds d\u2019investissement, les gestionnaires d\u2019actifs et les \u00e9tablissements financiers.",
+      "cta_quote":   "Demander un devis",
+      "cta_services": "Nos services"
+    },
+    "expertise": {
+      "badge":   "NOTRE EXPERTISE",
+      "heading": "Comment nous vous aidons",
+      "intro":   "Nous nous concentrons exclusivement sur la traduction de services financiers, en apportant une connaissance financi\u00e8re approfondie et une pr\u00e9cision technique \u00e0 chaque projet.",
+      "card1_title": "Documentation sp\u00e9cialis\u00e9e de fonds",
+      "card1_pre":   "Exclusivement focalis\u00e9s sur les ",
+      "card1_bold":  "fonds d\u2019investissement",
+      "card1_post":  " - prospectus, KIID, suppl\u00e9ments, rapports annuels et communications aux investisseurs. Nous comprenons les nuances que les services de traduction g\u00e9n\u00e9ralistes manquent.",
+      "card2_title": "Connaissance r\u00e9glementaire approfondie",
+      "card2_pre":   "Une exp\u00e9rience pratique des cadres ",
+      "card2_bold":  "OPCVM, GFIA, PRIIPs et SFDR",
+      "card2_post":  " dans plusieurs juridictions europ\u00e9ennes. Nous savons ce qu\u2019attendent les r\u00e9gulateurs et comment le leur fournir.",
+      "card3_title": "Approche ax\u00e9e sur la conformit\u00e9",
+      "card3_body":  "Traduction de qualit\u00e9 native avec une gestion rigoureuse de la terminologie, le respect des d\u00e9lais et une sensibilisation r\u00e9glementaire int\u00e9gr\u00e9e \u00e0 chaque \u00e9tape de notre processus. Une qualit\u00e9 qui passe l\u2019examen r\u00e9glementaire."
+    },
+    "why": {
+      "badge":        "POURQUOI C\u2019EST IMPORTANT",
+      "heading":      "On ne peut pas simplement demander \u00e0 l\u2019IA\u2026",
+      "block1_pre":   "La traduction de documents financiers r\u00e9glement\u00e9s n\u2019est pas simplement un exercice linguistique. ",
+      "block1_bold":  "Une terminologie incoh\u00e9rente, une formulation impr\u00e9cise ou un manque de sensibilisation r\u00e9glementaire",
+      "block1_post":  " peuvent cr\u00e9er un risque de conformit\u00e9 inutile.",
+      "block2_p1":    "Oui, l\u2019IA et la traduction automatique peuvent faire beaucoup de choses, nous les utilisons aussi\u00a0! Mais pour des documents tr\u00e8s techniques comme les rapports annuels, les \u00e9tats financiers ou les documents r\u00e9glementaires, il est pr\u00e9f\u00e9rable de ne pas s\u2019appuyer uniquement sur les ordinateurs.",
+      "block2_p2_pre":  "Pensez simplement aux nombreuses fa\u00e7ons dont le mot ",
+      "block2_p2_em":   "\u00ab\u00a0taux\u00a0\u00bb",
+      "block2_p2_post": " peut \u00eatre traduit sans contexte\u00a0! Les traducteurs humains joueront toujours un r\u00f4le crucial. Et c\u2019est l\u00e0 que nous intervenons\u2026",
+      "highlight":    "La traduction financi\u00e8re sp\u00e9cialis\u00e9e, avec le bon m\u00e9lange de ressources num\u00e9riques et humaines, fait toute la diff\u00e9rence."
+    }
+  },
+  "about": {
+    "hero": {
+      "heading":  "\u00c0 propos de FINTRASC",
+      "subtitle": "Services de traduction sp\u00e9cialis\u00e9s pour les fonds d\u2019investissement et les institutions financi\u00e8res"
+    },
+    "what_we_do": {
+      "heading":     "Ce que nous faisons",
+      "intro":       "Nous aidons les fonds d\u2019investissement et les acteurs des march\u00e9s financiers \u00e0 traduire les principaux documents r\u00e9glementaires et destin\u00e9s aux investisseurs, notamment\u00a0:",
+      "doc1_title":  "Documents de fonds",
+      "doc1_body":   "Prospectus et suppl\u00e9ments de fonds",
+      "doc2_title":  "Informations aux investisseurs",
+      "doc2_body":   "Documents d\u2019informations cl\u00e9s pour l\u2019investisseur (KIID) et documents d\u2019informations cl\u00e9s (KID)",
+      "doc3_title":  "Rapports financiers",
+      "doc3_body":   "Rapports annuels et semestriels",
+      "doc4_title":  "Informations SFDR",
+      "doc4_body":   "Informations SFDR et en mati\u00e8re de durabilit\u00e9",
+      "doc5_title":  "Documentation ESG",
+      "doc5_body":   "Politiques ESG et documentation connexe",
+      "focus_label": "Notre objectif\u00a0:",
+      "focus_body":  "Produire des traductions claires, pr\u00e9cises et adapt\u00e9es \u00e0 vos investisseurs et \u00e0 l\u2019examen r\u00e9glementaire."
+    },
+    "compliance": {
+      "heading": "Une approche ax\u00e9e sur la conformit\u00e9",
+      "intro":   "Nous travaillons avec une solide compr\u00e9hension de l\u2019environnement r\u00e9glementaire europ\u00e9en pour les fonds d\u2019investissement, notamment\u00a0:",
+      "check1":  "Cadres OPCVM et GFIA",
+      "check2":  "Exigences PRIIPs",
+      "check3":  "SFDR et informations europ\u00e9ennes en mati\u00e8re de durabilit\u00e9",
+      "body":    "Bien que nous ne fournissions pas de conseil juridique, nos traductions refl\u00e8tent le contexte r\u00e9glementaire dans lequel ces documents sont utilis\u00e9s. La terminologie est trait\u00e9e avec soin, les informations num\u00e9riques sont v\u00e9rifi\u00e9es minutieusement et la formulation est align\u00e9e sur les pratiques courantes du march\u00e9 et les Directives ou R\u00e8glements de l\u2019UE.",
+      "highlight": "Le r\u00e9sultat est des traductions con\u00e7ues pour r\u00e9sister \u00e0 l\u2019examen."
+    },
+    "esg": {
+      "heading":    "Informations ESG et d\u00e9veloppement durable",
+      "body1":      "Les informations sur la durabilit\u00e9 et les ESG n\u00e9cessitent une attention particuli\u00e8re. Un langage ambigu ou promotionnel peut exposer les fonds \u00e0 des risques r\u00e9glementaires et de r\u00e9putation.",
+      "highlight":  "Nous traduisons les informations sur la durabilit\u00e9 avec une approche conservatrice, ax\u00e9e sur la pr\u00e9cision",
+      "body2":      "Veillant \u00e0 ce que la terminologie ESG soit utilis\u00e9e de mani\u00e8re coh\u00e9rente et conform\u00e9ment aux attentes r\u00e9glementaires, tout en refl\u00e9tant fid\u00e8lement le texte source.",
+      "conclusion": "Cela favorise des rapports sur la durabilit\u00e9 cr\u00e9dibles et conformes dans toutes les langues."
+    },
+    "how_we_work": {
+      "heading":     "Notre m\u00e9thode de travail",
+      "intro":       "Notre processus est con\u00e7u pour garantir l\u2019exactitude, la coh\u00e9rence et la confidentialit\u00e9",
+      "step1_title": "Analyse du document",
+      "step1_body":  "Comprendre le contexte r\u00e9glementaire, le public cible et la juridiction",
+      "step2_title": "Alignement terminologique",
+      "step2_body":  "Assurer la coh\u00e9rence avec la documentation existante du fonds et les informations ant\u00e9rieures",
+      "step3_title": "Traduction sp\u00e9cialis\u00e9e",
+      "step3_body":  "Ax\u00e9e sur la pr\u00e9cision financi\u00e8re et r\u00e9glementaire",
+      "step4_title": "Contr\u00f4le qualit\u00e9",
+      "step4_body":  "V\u00e9rifications de la terminologie, des chiffres et de la coh\u00e9rence interne",
+      "step5_title": "Livraison s\u00e9curis\u00e9e",
+      "step5_body":  "Traitement confidentiel et d\u00e9lais fiables"
+    },
+    "who_we_work_with": {
+      "heading":  "Avec qui nous travaillons",
+      "intro":    "Nous travaillons avec\u00a0:",
+      "client1":  "Gestionnaires d\u2019actifs",
+      "client2":  "Fonds d\u2019investissement",
+      "client3":  "Administrateurs de fonds",
+      "client4":  "\u00c9quipes juridiques et conformit\u00e9",
+      "client5":  "Prestataires de services financiers",
+      "cta":      "Que vous lanciez un nouveau fonds, mettiez \u00e0 jour votre documentation r\u00e9glementaire ou pr\u00e9pariez des informations sur la durabilit\u00e9, nous fournissons des services de traduction sur lesquels vous pouvez compter."
+    }
+  },
+  "contact": {
+    "hero": {
+      "heading":  "Prenez Contact",
+      "subtitle": "Parlez-nous de votre projet \u2014 toutes les demandes et tous les documents sont trait\u00e9s de mani\u00e8re confidentielle."
+    },
+    "info": {
+      "badge":       "NOUS CONTACTER",
+      "heading":     "Discutons de vos besoins en traduction",
+      "intro":       "Que vous ayez un seul document ou un projet continu, nous sommes l\u00e0 pour vous aider. Contactez-nous et nous vous r\u00e9pondrons rapidement.",
+      "card1_title": "R\u00e9ponse rapide",
+      "card1_body":  "Nous nous engageons \u00e0 r\u00e9pondre \u00e0 toutes les demandes dans un d\u00e9lai d\u2019un jour ouvrable.",
+      "card2_title": "Confidentialit\u00e9 stricte",
+      "card2_body":  "Tous les documents et correspondances sont trait\u00e9s avec une totale discr\u00e9tion.",
+      "card3_title": "Email direct",
+      "card3_body":  "Vous pr\u00e9f\u00e9rez l\u2019email\u00a0?"
+    },
+    "form": {
+      "name_label":    "Nom complet",
+      "email_label":   "Adresse e-mail",
+      "message_label": "Votre message",
+      "submit":        "Envoyer le message",
+      "privacy":       "En soumettant ce formulaire, vous acceptez que vos informations soient utilis\u00e9es uniquement pour r\u00e9pondre \u00e0 votre demande. Nous ne partagerons jamais vos coordonn\u00e9es avec des tiers."
+    },
+    "messages": {
+      "success_title": "Message envoy\u00e9\u00a0!",
+      "success_body":  "Merci, nous vous contacterons dans un d\u00e9lai d\u2019un jour ouvrable.",
+      "error_heading": "Veuillez corriger les \u00e9l\u00e9ments suivants\u00a0:",
+      "error_generic": "Une erreur s\u2019est produite. Veuillez r\u00e9essayer ou nous envoyer un email directement.",
+      "err_name":      "Votre nom est requis.",
+      "err_email":     "Une adresse e-mail valide est requise.",
+      "err_message":   "Veuillez saisir un message."
+    }
+  }
+}

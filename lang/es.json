@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "home_title":    "FINTRASC - Servicios de Traducci\u00f3n Financiera",
+    "about_title":   "Acerca de - FINTRASC",
+    "contact_title": "Contacto - FINTRASC"
+  },
+  "nav": {
+    "home":    "Inicio",
+    "services": "Servicios",
+    "about":   "Acerca de",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "cta_heading": "Cont\u00e1ctenos",
+    "cta_body1":   "Si desea hablar sobre un proyecto o solicitar un presupuesto, no dude en ponerse en contacto.",
+    "cta_body2":   "Todas las consultas y documentos son tratados de forma confidencial.",
+    "cta_button":  "Cont\u00e1ctenos para hablar sobre sus necesidades de traducci\u00f3n",
+    "copyright":   "\u00a9 2026 FINTRASC. Todos los derechos reservados."
+  },
+  "home": {
+    "hero": {
+      "subtitle":    "Traducciones precisas, coherentes y con plena conciencia del cumplimiento normativo para fondos de inversi\u00f3n, gestores de activos e instituciones financieras.",
+      "cta_quote":   "Solicitar presupuesto",
+      "cta_services": "Qu\u00e9 hacemos"
+    },
+    "expertise": {
+      "badge":   "NUESTRA ESPECIALIDAD",
+      "heading": "C\u00f3mo le ayudamos",
+      "intro":   "Nos especializamos exclusivamente en la traducci\u00f3n de servicios financieros, aportando un profundo conocimiento financiero y precisi\u00f3n t\u00e9cnica a cada proyecto.",
+      "card1_title": "Documentaci\u00f3n especializada de fondos",
+      "card1_pre":   "Centrados exclusivamente en los ",
+      "card1_bold":  "fondos de inversi\u00f3n",
+      "card1_post":  " - folletos, KIIDs, suplementos, informes anuales y comunicaciones con inversores. Comprendemos los matices que los servicios de traducci\u00f3n generalistas pasan por alto.",
+      "card2_title": "Profundo conocimiento regulatorio",
+      "card2_pre":   "Amplia experiencia pr\u00e1ctica con ",
+      "card2_bold":  "UCITS, AIFMD, PRIIPs y SFDR",
+      "card2_post":  " en m\u00faltiples jurisdicciones europeas. Sabemos lo que esperan los reguladores y c\u00f3mo ofrecers\u00e9lo.",
+      "card3_title": "Enfoque centrado en el cumplimiento",
+      "card3_body":  "Traducci\u00f3n de nivel nativo con una gesti\u00f3n rigurosa de la terminolog\u00eda, cumplimiento de plazos y conciencia regulatoria integrada en cada paso de nuestro proceso. Calidad que supera el escrutinio regulatorio."
+    },
+    "why": {
+      "badge":        "POR QU\u00c9 ES IMPORTANTE",
+      "heading":      "No se puede simplemente preguntar a la IA\u2026",
+      "block1_pre":   "Traducir documentos financieros regulados no es simplemente un ejercicio ling\u00fc\u00edstico. ",
+      "block1_bold":  "Una terminolog\u00eda inconsistente, una redacci\u00f3n imprecisa o la falta de conciencia regulatoria",
+      "block1_post":  " pueden crear un riesgo de cumplimiento innecesario.",
+      "block2_p1":    "S\u00ed, la IA y la traducci\u00f3n autom\u00e1tica pueden hacer muchas cosas, \u00a1nosotros tambi\u00e9n las utilizamos! Pero para documentos altamente t\u00e9cnicos como informes anuales, estados financieros o documentos regulatorios, es mejor no depender \u00fanicamente de los ordenadores.",
+      "block2_p2_pre":  "Piense en las muchas formas en que la palabra ",
+      "block2_p2_em":   "\u00abtype\u00bb",
+      "block2_p2_post": " puede traducirse sin contexto. \u00a1Los traductores humanos siempre jugar\u00e1n un papel crucial. Y ah\u00ed es donde entramos nosotros\u2026",
+      "highlight":    "La traducci\u00f3n financiera especializada, con la combinaci\u00f3n adecuada de recursos digitales y humanos, marca toda la diferencia."
+    }
+  },
+  "about": {
+    "hero": {
+      "heading":  "Acerca de FINTRASC",
+      "subtitle": "Servicios de traducci\u00f3n especializados para fondos de inversi\u00f3n e instituciones financieras"
+    },
+    "what_we_do": {
+      "heading":     "Qu\u00e9 hacemos",
+      "intro":       "Ayudamos a los fondos de inversi\u00f3n y a los participantes en los mercados financieros a traducir los principales documentos regulatorios y dirigidos a inversores, incluidos:",
+      "doc1_title":  "Documentos de fondos",
+      "doc1_body":   "Folletos y suplementos de fondos",
+      "doc2_title":  "Informaci\u00f3n al inversor",
+      "doc2_body":   "Documentos de datos fundamentales para el inversor (KIID) y documentos de informaci\u00f3n clave (KID)",
+      "doc3_title":  "Informes financieros",
+      "doc3_body":   "Informes anuales y semestrales",
+      "doc4_title":  "Informaci\u00f3n SFDR",
+      "doc4_body":   "Informes SFDR y de sostenibilidad",
+      "doc5_title":  "Documentaci\u00f3n ESG",
+      "doc5_body":   "Pol\u00edticas ESG y documentaci\u00f3n relacionada",
+      "focus_label": "Nuestro enfoque:",
+      "focus_body":  "Producir traducciones claras, precisas y adecuadas para sus inversores y para la revisi\u00f3n regulatoria."
+    },
+    "compliance": {
+      "heading": "Un enfoque centrado en el cumplimiento",
+      "intro":   "Trabajamos con un s\u00f3lido conocimiento del entorno regulatorio europeo para los fondos de inversi\u00f3n, que incluye:",
+      "check1":  "Marcos UCITS y AIFMD",
+      "check2":  "Requisitos PRIIPs",
+      "check3":  "SFDR e informaci\u00f3n sobre sostenibilidad de la UE",
+      "body":    "Aunque no proporcionamos asesoramiento legal, nuestras traducciones reflejan el contexto regulatorio en el que se utilizan estos documentos. La terminolog\u00eda se maneja con cuidado, la informaci\u00f3n num\u00e9rica se comprueba exhaustivamente y la redacci\u00f3n se alinea con la pr\u00e1ctica habitual del mercado y las Directivas o Reglamentos de la UE.",
+      "highlight": "El resultado son traducciones dise\u00f1adas para resistir el escrutinio."
+    },
+    "esg": {
+      "heading":    "Informaci\u00f3n ESG y de sostenibilidad",
+      "body1":      "Los informes de sostenibilidad y ESG requieren especial cuidado. El lenguaje ambiguo o promocional puede exponer a los fondos a riesgos regulatorios y de reputaci\u00f3n.",
+      "highlight":  "Traducimos los informes de sostenibilidad con un enfoque conservador y centrado en la precisi\u00f3n",
+      "body2":      "Garantizando que la terminolog\u00eda ESG se utilice de forma coherente y en l\u00ednea con las expectativas regulatorias, reflejando fielmente el texto fuente.",
+      "conclusion": "Esto favorece una informaci\u00f3n de sostenibilidad cre\u00edble y conforme en todos los idiomas."
+    },
+    "how_we_work": {
+      "heading":     "C\u00f3mo trabajamos",
+      "intro":       "Nuestro proceso est\u00e1 dise\u00f1ado para garantizar la precisi\u00f3n, la coherencia y la confidencialidad",
+      "step1_title": "An\u00e1lisis del documento",
+      "step1_body":  "Comprendiendo el contexto regulatorio, el p\u00fablico objetivo y la jurisdicci\u00f3n",
+      "step2_title": "Alineaci\u00f3n terminol\u00f3gica",
+      "step2_body":  "Garantizando la coherencia con la documentaci\u00f3n existente del fondo y comunicaciones anteriores",
+      "step3_title": "Traducci\u00f3n especializada",
+      "step3_body":  "Centrada en la precisi\u00f3n financiera y regulatoria",
+      "step4_title": "Control de calidad",
+      "step4_body":  "Verificaci\u00f3n de terminolog\u00eda, cifras y coherencia interna",
+      "step5_title": "Entrega segura",
+      "step5_body":  "Gesti\u00f3n confidencial y plazos fiables"
+    },
+    "who_we_work_with": {
+      "heading":  "Con qui\u00e9n trabajamos",
+      "intro":    "Trabajamos con:",
+      "client1":  "Gestores de activos",
+      "client2":  "Fondos de inversi\u00f3n",
+      "client3":  "Administradores de fondos",
+      "client4":  "Equipos legales y de cumplimiento",
+      "client5":  "Proveedores de servicios financieros",
+      "cta":      "Ya sea que est\u00e9 lanzando un nuevo fondo, actualizando documentaci\u00f3n regulatoria o preparando informes de sostenibilidad, ofrecemos servicios de traducci\u00f3n en los que puede confiar."
+    }
+  },
+  "contact": {
+    "hero": {
+      "heading":  "Cont\u00e1ctenos",
+      "subtitle": "Cu\u00e9ntenos sobre su proyecto \u2014 todas las consultas y documentos son tratados de forma confidencial."
+    },
+    "info": {
+      "badge":       "CONT\u00c1CTENOS",
+      "heading":     "Hablemos de sus necesidades de traducci\u00f3n",
+      "intro":       "Tanto si tiene un \u00fanico documento como un proyecto continuo, estamos aqu\u00ed para ayudarle. Cont\u00e1ctenos y le responderemos con prontitud.",
+      "card1_title": "Respuesta r\u00e1pida",
+      "card1_body":  "Nos comprometemos a responder a todas las consultas en un plazo de un d\u00eda h\u00e1bil.",
+      "card2_title": "Estricta confidencialidad",
+      "card2_body":  "Todos los documentos y correspondencia se gestionan con total discreci\u00f3n.",
+      "card3_title": "Email directo",
+      "card3_body":  "\u00bfPrefiere el correo electr\u00f3nico?"
+    },
+    "form": {
+      "name_label":    "Nombre completo",
+      "email_label":   "Direcci\u00f3n de email",
+      "message_label": "Su mensaje",
+      "submit":        "Enviar mensaje",
+      "privacy":       "Al enviar este formulario, acepta que su informaci\u00f3n se utilizar\u00e1 \u00fanicamente para responder a su consulta. Nunca compartiremos sus datos con terceros."
+    },
+    "messages": {
+      "success_title": "\u00a1Mensaje enviado!",
+      "success_body":  "Gracias, nos pondremos en contacto en un plazo de un d\u00eda h\u00e1bil.",
+      "error_heading": "Por favor, corrija lo siguiente:",
+      "error_generic": "Algo ha fallado. Por favor, int\u00e9ntelo de nuevo o env\u00edenos un email directamente.",
+      "err_name":      "Su nombre es obligatorio.",
+      "err_email":     "Se requiere una direcci\u00f3n de email v\u00e1lida.",
+      "err_message":   "Por favor, introduzca un mensaje."
+    }
+  }
+}

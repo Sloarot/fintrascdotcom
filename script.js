@@ -109,7 +109,7 @@ function setLang(lang, flagCode) {
   expires.setFullYear(expires.getFullYear() + 1);
   document.cookie =
     "fintrasc_lang=" +
-    flagCode +
+    lang +
     "; expires=" +
     expires.toUTCString() +
     "; path=/; SameSite=Lax";
