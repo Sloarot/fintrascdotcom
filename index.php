@@ -7,7 +7,7 @@ include 'header.php';
 <!-- Hero Section -->
 <section id="hero" class="hero-section relative min-h-screen flex items-center">
     <!-- Background Video (Desktop only) -->
-    <video autoplay muted loop playsinline class="hidden md:block absolute inset-0 w-full h-full object-cover z-0">
+    <video autoplay muted loop playsinline preload="auto" poster="images/banner.png" class="hidden md:block absolute inset-0 w-full h-full object-cover z-0">
         <source src="images/inspiration/skyline.webm" type="video/webm">
         <source src="images/inspiration/syline.mp4" type="video/mp4">
     </video>
